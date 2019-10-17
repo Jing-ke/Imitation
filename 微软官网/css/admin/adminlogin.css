@@ -1,0 +1,119 @@
+body{
+    width: 100%;
+    background-image: url(../../images/admin/o_1cm84jvfc1oqh198cu088o7q4co.jpg);
+    /* background: url(../../images/狗蛋子/QQ图片20190201144910.jpg); */
+    background-size: 100%;
+    /* background-repeat: no-repeat;
+            /* background-position: center;
+            background-size: cover; */
+    /* -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);  */
+}
+.wrap{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    /* width: 700px; */
+    height: 438px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    /* color: #fff; */
+    opacity: 0;
+}
+.wrap .register{
+    float: left;
+    display: inline-block;
+    padding: 50px 30px  123px 30px;
+    background-color:#3B3A3F;
+    border-radius: 5px 0  0 5px;
+}
+.wrap .register .logo{
+    width: 108px;
+    height: 23px;
+}
+.wrap .register .logo img{
+    width: 100%;
+    height: 100%;
+}
+.wrap .register h2{
+    margin-top: 50px;
+    color: #A9A8AD;
+}
+.wrap .register span{
+    display: block;
+    margin-top: 50px;
+    color: #fff;
+}
+.wrap .register a{
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 50px;
+    background-color: #00CF9B;
+    color: #fff;
+    cursor: pointer;
+}
+.wrap .login{
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+    float: left;
+    width: 580px;
+    /* background-color: red; */
+    border-radius: 0 5px 0 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.wrap .login h2{
+    /* width: 350px;
+    border-bottom: 1px solid #ccc; */
+    padding: 15px 0 15px 50px;
+    background-color: #fff;
+}
+.wrap .login .content{
+    width: 100%;
+    height: 376px;
+    padding: 50px 50px 0 50px;
+    border-radius: 0 0 5px 0;
+    background-color:#F1F1F3;
+    box-sizing: border-box;
+}
+.wrap .login .content h3{
+    display: inline-block;
+    margin-right: 130px;
+}
+.wrap .login .content input{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+}
+.wrap .login .content .name{
+    margin-left: 5px;
+    margin-right: 55px;
+}
+.wrap .login .content .forget{
+    display: block;
+    margin-top: 20px;
+}
+.wrap .login .content button{
+    padding: 10px 60px;
+    margin: 25px auto;
+    background-color: #4796F2;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+.wrap .login.second{
+    display: none;
+    /* position: absolute;
+    top: 0px;
+    left: 204px; */
+}

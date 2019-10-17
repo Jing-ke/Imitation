@@ -1,0 +1,30 @@
+.news-content{
+    width: 1400px;
+    margin: 0 auto;
+}
+#news-lis{
+    width: 1400px;
+    height: 200px;
+    /* margin: 0 auto; */
+    border: 1px solid #000;
+    overflow: hidden;
+}
+#news-lis>li{
+    margin: 15px 20px; 
+    
+}
+.news-name{
+    float: left;
+}
+.news-date{
+    float: right;
+}
+.button-content{
+    float: right;
+    margin: 20px auto;
+}
+.cp-item{
+    float: left;
+    margin-right: 20px;
+    /* border-right: 5px solid #000; */
+}

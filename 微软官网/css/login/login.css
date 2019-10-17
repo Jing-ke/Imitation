@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+    background: url(../../images/login/timg.jpg);
+    /* background: url(../../images/狗蛋子/QQ图片20190201144910.jpg); */
+    background-size: 100%; 
+}
+.wrap{
+    position: relative;
+    width: 440px;
+    height: 358px;
+    margin: 250px auto;
+    padding: 45px 50px;
+    background-color: #fff; 
+    box-sizing: border-box;
+    overflow: hidden;
+    opacity: 0;
+}
+.wrap .logo img{
+    height: 24px;
+}
+.wrap .content{
+    position: absolute;
+    right: -700px;
+    opacity: 0;
+
+}
+.wrap .content h2{
+    margin: 20px 0 12px 0;
+    font-size: 25px;
+    font-family: "宋体";
+    color: #626262;
+    font-weight: 700;
+}
+.wrap .content .email{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    text-indent: 2px;
+    border: 0;
+    border-bottom: 1px solid #0067b8;
+    outline: 0;
+}
+.wrap .content .password{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    text-indent: 2px;
+    border: 0;
+    border-bottom: 1px solid #0067b8;
+    outline: 0;
+}
+.wrap .content .title a{
+    color: #0067b8;
+}
+.wrap .content .title a:hover{
+    color: #626262;
+    text-decoration: underline;
+}
+.wrap .content .register{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.wrap .content .register a{
+    color: #0067b8;
+    font-size: 12px;
+}
+.wrap .content .register a:hover{
+    color: #626262;
+    text-decoration: underline;
+}
+.wrap .content .login{
+    float: right;
+    padding: 6px 35px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #0067b8;
+    border: 0;
+    cursor: pointer;
+}
+.wrap .content .login:hover{
+    background-color: #0b5a98;
+}
+.foot{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: rgba(0,0,0,.7);
+}
+.foot .content{
+    float: right;
+    /* display: inline-block; */
+    color: #fff;
+    font-size: 12px;
+    line-height: 25px;
+    /* background-color: red; */
+}
+.foot .content a{
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.foot .content a:hover{
+    text-decoration: underline;
+}

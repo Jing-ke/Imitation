@@ -1,0 +1,68 @@
+.section3{
+    float: left;
+    width: 100%;
+    height: 600px;
+}
+.section3 .content{
+    position: relative;
+    width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+.section3 .content .descr{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 490px;
+    font-family: "微软雅黑";
+}
+.section3 .content .descr h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section3 .content .descr span{
+    display: block;
+}
+.section3 .content .descr a{
+    position: absolute;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 38px 9px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    transition: .5s;
+}
+.section3 .content .descr a:before{
+    position: absolute;
+    top: 80%;
+    left: 23px;
+    content: "";
+    width: 61px;
+    height: 0px;
+    background-color: #fff;
+    opacity: 0;
+    transition: .3s;
+}
+
+.section3 .content .descr a:hover:before{
+    height: 2px;
+    opacity: .9;
+}
+.section3 .content .descr a:visited{
+    color: #fff;
+}
+.section3 .content .descr a i{
+    position: absolute;
+    top: 13px;
+    left: 95px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transition: .5s;
+}
+.section3 .content .descr a:hover i{
+    left: 100px;
+}

@@ -1,0 +1,553 @@
+body{
+    /* background: url(../../images/login/timg1.jpg) no-repeat 100% 100%; */
+}
+.wrap{
+    width: 1476px;
+    height: 800px;
+    /* margin */
+    margin: 70px auto;
+    background-color: rgb(228,228,228);
+}
+/* .wrap .content{
+    width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: red;
+} */
+.wrap .nav-wrap{
+    float: left;
+    width: 300px;
+    height: 800px;
+    background-color: yellow;
+}
+.wrap .nav-wrap .logo{
+    width: 100%;
+    height: 100px;
+    padding: 35px 53px;
+    background-color: rgb(168,33,39);
+    box-sizing: border-box;
+}
+.wrap .nav-wrap .logo img{
+    float: left;
+    /* width: 46px;
+    height: 46px; */
+}
+.wrap .nav-wrap .logo span{
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 32px;
+    font-size: 17px;
+    /* font-weight: 700; */
+    color: #fff;
+}
+.wrap .nav-wrap .nav{
+    width: 100%;
+    height: 700px;
+    color: #ccc;
+    background-color: rgb(50,50,58);
+}
+.wrap .nav-wrap .nav .listTitle{
+    padding: 20px 30px;
+    border-bottom: 1px solid rgb(85,84,90);
+    cursor: pointer;
+    border-left: 0px solid rgb(121, 23, 23);
+    transition: .3s;
+}
+.wrap .nav-wrap .nav .listTitle:hover{
+    background-color: rgb(38, 38, 44)
+}
+.wrap .nav-wrap .nav .listTitle>i{
+    margin-right: 15px;
+    color: #fff;
+}
+.wrap .nav-wrap .nav .listTitle>p{
+    display: inline-block;
+    
+}
+.wrap .nav-wrap .nav .listTitle.on{
+    border-left: 10px solid rgb(121, 23, 23);
+    box-sizing: border-box;
+}
+.wrap .nav-wrap .nav ul{
+    display: none;
+}
+.wrap .nav-wrap .nav ul.on{
+    display: block;
+}
+.wrap .nav-wrap .nav .list{
+    padding: 15px 60px;
+    background-color: rgb(65,64,70);
+    cursor: pointer;
+}
+.wrap .nav-wrap .nav .list.on{
+    background-color: yellow;
+}
+/* .wrap .nav-wrap .nav .list:hover{
+    background-color: rgb(85,84,90);
+} */
+/* 面板 */
+.wrap>.plane-wrap{
+    position: relative;
+    float: left;
+    width: 1176px;
+    height: 800px;
+    background-color: pink;
+}
+.plane-wrap .admin-info{
+    width: 1176px;
+    height: 100px;
+    background-color: rgb(240,240,240);
+}
+.plane-wrap .admin-info .funIcon{
+    float: left;
+    /* width: 50px;
+    height: 50px; */
+    padding: 25px 0 0 50px;
+}
+.plane-wrap .admin-info .funIcon>i{
+    font-size: 50px;
+    color: #666;
+}
+.plane-wrap .admin-info .adminFun{
+    float: right;
+    padding: 32px 80px 32px 0;
+    /* background-color: red; */
+}
+.plane-wrap .admin-info .adminFun>p{
+    float: left;
+    margin-right: 15px;
+    color:#666;
+    font-size: 14px;
+    line-height: 35px;
+}
+.plane-wrap .admin-info .adminFun>p.name{
+    color: #000;
+    /* font-size: 17px; */
+    margin-left: 15px;
+}
+.plane-wrap .admin-info .adminFun>img{
+    float: left;
+}
+.plane-wrap .admin-info .adminFun>i:nth-of-type(1){
+    display: inline-block;
+    font-size: 30px;
+    margin: 3px 15px 0 20px;
+    cursor: pointer;
+}
+.plane-wrap .admin-info .adminFun>i:nth-of-type(2){
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.plane-wrap .admin-info .adminFun>i:hover{
+    color: rgb(160,33,39);
+}
+
+
+/* 商品查看内容 */
+
+.plane-wrap .goodsView-content{
+    position: relative;
+    /* display: none;  */
+   
+    width: 1176px;
+    height: 700px;
+    padding: 50px 25px 0px 25px;
+    background-color: rgb(228,228,228);
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+.plane-wrap .goodsView-content.on{
+    display: block;
+}
+.plane-wrap  .DB:nth-of-type(2){
+    display: none;
+}
+.plane-wrap  .DB:nth-of-type(2).on{
+    display: block;
+}
+.plane-wrap  .DB:nth-of-type(3){
+    display: none;
+}
+.plane-wrap  .DB:nth-of-type(3).on{
+    display: block;
+}
+.plane-wrap  .DB:nth-of-type(4){
+    display: none;
+}
+.plane-wrap  .DB:nth-of-type(4).on{
+    display: block;
+}
+.plane-wrap  .DB:nth-of-type(5){
+    display: none;
+}
+.plane-wrap  .DB:nth-of-type(5).on{
+    display: block;
+}
+.plane-wrap  .DB:nth-of-type(6){
+    display: none;
+}
+.plane-wrap  .DB:nth-of-type(6).on{
+    display: block;
+}
+.plane-wrap  .DB:nth-of-type(7){
+    display: none;
+}
+.plane-wrap  .DB:nth-of-type(7).on{
+    display: block;
+}
+
+/* 搜索 */
+.goodsView-content form>.search{
+    width: 150px;
+    height: 25px;
+    text-indent: 2em;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    /* font-size: 12px; */
+}
+.goodsView-content form>.search-icon{ 
+    position: absolute;
+    top: 51px;
+    left: 30px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.goodsView-content form>.search-icon:hover{
+    color: orange;
+    /* font-weight: 700; */
+}
+/* 商品显示 */
+.goodsView-content .info-wrap{
+    width: 1080px;
+    /* height: 600px; */
+    margin-top: 20px;
+    /* border: 1px solid #000; */
+    /* background-color: red; */
+}
+.goodsView-content .info-wrap .info-content{
+    width: 1126px;
+    height: 500px;
+    border-top: 10px solid rgb(160,37,39);
+    background-color: blue;
+    overflow: auto;
+}
+.goodsView-content .info-wrap .info-content>li.title p{
+    float: left;
+    display:block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+ .goodsView-content .info-wrap .info-content>li span{
+    float: left;
+    display:block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.goodsView-content .info-wrap .info-content>li span img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.goodsView-content .info-wrap .info-content>li:nth-of-type(2n+1){
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233,233,233);
+}
+.goodsView-content .info-wrap .info-content>li:nth-of-type(2n){
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255,255,255);
+}
+/* 页码 */
+/* .goodsView-content .page-wrap{
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.goodsView-content .page-wrap span{
+    float: left;
+    font-size: 15px;
+    line-height: 50px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+.goodsView-content .page-wrap span:hover{
+    color: rgb(160,33,39);
+}
+.goodsView-content .page-wrap .page-count{
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.goodsView-content .page-wrap .page-count span{
+    color: #1E90FF;
+}
+.goodsView-content .page-wrap .page-count span:hover{
+    color: rgb(160,33,39);
+} */
+
+/* 商品删除 */
+.goodsDelete-content{
+    /* position: relative; */
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 1176px;
+    height: 700px;
+    padding: 50px 25px 0px 25px;
+    background-color: rgb(228,228,228);
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+
+/* 搜索 */
+.goodsDelete-content form>.search{
+    width: 150px;
+    height: 25px;
+    text-indent: 2em;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    /* font-size: 12px; */
+}
+.goodsDelete-content form>.search-icon{ 
+    position: absolute;
+    top: 51px;
+    left: 30px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.goodsDelete-content form>.search-icon:hover{
+    color: orange;
+    /* font-weight: 700; */
+}
+/* 商品显示 */
+.goodsDelete-content .info-wrap{
+    width: 1050px;
+    /* height: 600px; */
+    margin-top: 20px;
+    /* border: 1px solid #000; */
+    /* background-color: red; */
+}
+.goodsDelete-content .info-wrap .info-content{
+    width: 1126px;
+    height: 500px;
+    border-top: 10px solid rgb(160,37,39);
+    /* background-color: blue; */
+    overflow: auto;
+}
+.goodsDelete-content .info-wrap .info-content>li.title p{
+    float: left;
+    display:block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.goodsDelete-content .info-wrap .info-content>li span{
+    float: left;
+    display:block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.goodsDelete-content .info-wrap .info-content>li{
+    position: relative; 
+}
+.goodsDelete-content .info-wrap .info-content>li i{
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+.goodsDelete-content .info-wrap .info-content>li i:hover{
+    transform: rotate(60deg)
+}
+.goodsDelete-content .info-wrap .info-content>li span img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.goodsDelete-content .info-wrap .info-content>li:nth-of-type(2n+1){
+    /* width: 100%; */
+    width: 1105px;
+    height: 50px;
+    background-color: rgb(233,233,233);
+}
+.goodsDelete-content .info-wrap .info-content>li:nth-of-type(2n){
+    /* width: 100%; */
+    width: 1105px;
+    height: 50px;
+    background-color: rgb(255,255,255);
+}
+/* 页码 */
+.goodsDelete-content .page-wrap{
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 350px;
+    /* background-color: red; */
+}
+.goodsDelete-content .page-wrap span{
+    float: left;
+    font-size: 15px;
+    line-height: 50px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+.goodsDelete-content .page-wrap span:hover{
+    color: rgb(160,33,39);
+}
+.goodsDelete-content .page-wrap .page-count{
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.goodsDelete-content .page-wrap .page-count span{
+    color: #1E90FF;
+}
+.goodsDelete-content .page-wrap .page-count span:hover{
+    color: rgb(160,33,39);
+}
+/* 商品修改 */
+.goodsAmend-content{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 1176px;
+    height: 700px;
+    padding: 50px 25px 0px 25px;
+    background-color: rgb(228,228,228);
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+.goodsAmend-content form>.search{
+    width: 150px;
+    height: 25px;
+    text-indent: 2em;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    /* font-size: 12px; */
+}
+.goodsAmend-content form>.search-icon{ 
+    position: absolute;
+    top: 51px;
+    left: 30px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.goodsAmend-content form>.search-icon:hover{
+    color: orange;
+    /* font-weight: 700; */
+}
+/* 商品显示 */
+.goodsAmend-content .info-wrap{
+    width: 1105px;
+    /* height: 600px; */
+    margin-top: 20px;
+    /* border: 1px solid #000; */
+    /* background-color: red; */
+}
+.goodsAmend-content .info-wrap .info-content{
+    width: 1105px;
+    height: 500px;
+    border-top: 10px solid rgb(160,37,39);
+    background-color: blue;
+}
+.goodsAmend-content .info-wrap .info-content>li.title p{
+    float: left;
+    display:block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.goodsAmend-content .info-wrap .info-content>li span{
+    float: left;
+    display:block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.goodsAmend-content .info-wrap .info-content>li{
+    position: relative; 
+}
+.goodsAmend-content .info-wrap .info-content>li i{
+    position: absolute;
+    top: 14px;
+    left: 3px;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+.goodsAmend-content .info-wrap .info-content>li i:hover{
+    transform: rotate(60deg)
+}
+.goodsAmend-content .info-wrap .info-content>li span img{
+    margin-top: 5px;
+}
+.goodsAmend-content .info-wrap .info-content>li:nth-of-type(2n+1){
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233,233,233);
+}
+.goodsAmend-content .info-wrap .info-content>li:nth-of-type(2n){
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255,255,255);
+}
+/* 页码 */
+.goodsAmend-content .page-wrap{
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 350px;
+    /* background-color: red; */
+}
+.goodsAmend-content .page-wrap span{
+    float: left;
+    font-size: 15px;
+    line-height: 50px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+.goodsAmend-content .page-wrap span:hover{
+    color: rgb(160,33,39);
+}
+.goodsAmend-content .page-wrap .page-count{
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.goodsAmend-content .page-wrap .page-count span{
+    color: #1E90FF;
+}
+.goodsAmend-content .page-wrap .page-count span:hover{
+    color: rgb(160,33,39);
+}

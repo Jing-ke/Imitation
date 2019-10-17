@@ -1,0 +1,25 @@
+body,p,ul,li,h2,h3,h4,a,form,dl,dd{
+    margin: 0px;
+    padding: 0px;
+}
+body,p,ul,li{
+    font-size: 12px;
+    /* FONT-FAMILY: Arial,Helvetica,sans-serif,"宋体"; */
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+/*雪碧图*/
+.publicIcon{
+    background-image: url("../images/header/public-24.png");
+}
+/*清除父级塌陷*/
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}

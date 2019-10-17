@@ -1,0 +1,280 @@
+.footer{
+    float: left;
+    width: 100%;
+    height: 568px;
+    margin-top: 10px;
+}
+/* 脚上部开始 */
+.footer .footerTopBox{
+    width: 100%;
+    height: 289px;
+    background-color: #333;
+}
+.footer .footerTopBox .footerTop{
+    width: 1200px;
+    height: 84px;
+    margin: 0 auto;
+    border-bottom: 1px solid #494949;
+}
+.footer .footerTopBox .footerTop .footerContact{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 22px 0;
+    font-family: "微软雅黑";
+}
+.footer .footerTopBox .footerTop .footerContact i{
+    float: left;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-position: -144px -22px;
+    margin-right: 18px;
+}
+.footer .footerTopBox .footerTop .footerContact b{
+    font-size: 24px;
+    color: #c00;
+    margin-right: 25px;
+}
+.footer .footerTopBox .footerTop .footerContact span{
+    font-size: 14px;
+    color: #fff;
+    margin-right: 8px;
+}
+.footer .footerTopBox .footerTop .footerTopRight{
+    float: right;
+    height: 32px;
+    padding: 26px 0;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-tit{
+    float: left;
+    line-height: 32px;
+    color: #fff;
+    font-family: "微软雅黑";
+    padding-right: 10px;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form{
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 30px;
+    border: 1px solid #494949;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form input{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 6px;
+    background: 0;
+    border: 0;
+    float: left;
+    color: #fff;
+    outline: 0;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form input:focus + span{
+    display: none;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form span{
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    position: absolute;
+    left: 6px;
+    top: 0;
+}
+.footer .footerTopBox .footerTop .footerTopRight .ftRight-form i{
+    display: inline-block;
+    width: 22px;
+    height: 18px;
+    background-position: -133px 0;
+    margin: 6px 0 0 10px;
+    cursor: pointer;
+}
+.footer .footerTopBox .footerServices{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 60px;
+}
+.footer .footerTopBox .footerServices ul{
+    height: 114px;
+}
+.footer .footerTopBox .footerServices li{
+    display: inline;
+    float: left;
+    width: 158px;
+    margin-right: 15px;
+}
+.footer .footerTopBox .footerServices li h3{
+    font-weight: normal;
+    height: 26px;
+    line-height: 26px;
+    padding: 5px 0;
+}
+.footer .footerTopBox .footerServices li h3 i{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-right: 9px;
+}
+.footer .footerTopBox .footerServices li h3 i.I1{
+    background-position: 0 -131px;
+}
+.footer .footerTopBox .footerServices li h3 i.I2{
+    background-position: -30px -131px;
+}
+.footer .footerTopBox .footerServices li h3 i.I3{
+    background-position: -60px -131px;
+}
+.footer .footerTopBox .footerServices li h3 i.I4{
+    background-position: -90px -131px;
+}
+.footer .footerTopBox .footerServices li h3 i.I5{
+    background-position: -120px -131px;
+}
+.footer .footerTopBox .footerServices li h3 i.I6{
+    background-position: -150px -131px;
+}
+.footer .footerTopBox .footerServices li h3 span{
+    display: inline-block;
+    width: 95px;
+    font-size: 14px;
+    color: #fff;
+    font-family: "微软雅黑";
+    overflow: hidden;
+    white-space: nowrap;
+}
+.footer .footerTopBox .footerServices li p{
+    width: 123px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.footer .footerTopBox .footerServices li p a{
+    color: #ccc;
+}
+.footer .footerTopBox .footerServices li p a:hover{
+    text-decoration: underline;
+}
+.footer .footerTopBox .footerServices .jxBlog{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    float: left;
+    width: 162px;
+    height: 80px;
+    /* background-color: red; */
+}
+.footer .footerTopBox .footerServices .jxBlog .sina{
+    width: 130px;
+    height: 28px;
+    margin-bottom: 20px;
+    /* background-color: green; */
+}
+.footer .footerTopBox .footerServices .jxBlog .sina i{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 9px;
+    float: left;
+    cursor: pointer;
+}
+.footer .footerTopBox .footerServices .jxBlog .sina i.sina{
+    background-position: -140px -74px;
+}
+.footer .footerTopBox .footerServices .jxBlog .sina i.weixin{
+    background-position: -103px -74px;
+}
+.footer .footerTopBox .footerServices .jxBlog .sina a{
+    float: left;
+    display: inline-block;
+    color: #fff;
+    line-height: 28px;
+    font-family: "微软雅黑";
+}
+.footer .footerTopBox .footerServices .weixinCode{
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    left: 37px;
+    top: 75px;
+}
+/* 脚上部分结束 */
+
+/* 脚下部分开始 */
+.footer .footerBotBox{
+    width: 100%;
+}
+.footerBot{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0 40px;
+}
+.footerBotLeft {
+    float: left;
+    width: 760px;
+}
+.footerBotLeft .footerInfo {
+    height: 16px;
+    padding: 4px 0;
+    margin-left: 0;
+    color: #666;
+}
+.footerBotLeft p a{
+    color: #666;
+}
+.footerBotLeft p a:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+.footerBotLeft p{
+    line-height: 20px;
+    text-align: left;
+    color: #999;
+    font-family: "宋体";
+}
+.footerBotLeft .friendLink {
+    padding: 17px 0 3px 0;
+    color: #999;
+    height: 20px;
+    width: 740px;
+}
+.footerBotLeft .friendLink span a{
+    color: #999;
+}
+.footerBotLeft .copyBot{
+    margin-top: 7px;
+}
+.footerBotLeft .footerPro{
+    color: #cc0000;
+}
+.footerBotCode{
+    float: left;
+    width: 240px;
+    text-align: center;
+    padding-top: 20px;
+}
+.footerBotCode .code {
+    float: left;
+    width: 80px;
+    display: inline;
+    margin-left: 40px;
+}
+.footerBotCode .code .codePic {
+    
+}
+.footerBotCode .code .codePic img{
+    width: 80px;
+    height: 80px;
+}
+.footerBotCode .code .text{
+    width: 80px;
+    height: 24px;
+    padding-top: 5px;
+    color: #999;
+    line-height: 24px;
+    /* white-space: nowrap; */
+}
+/* 脚下部分结束 */

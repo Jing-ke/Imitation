@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <link rel="shortcut icon" href="./images/网站icon/bitbug_favicon(3).ico" />
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <title>登录你的 Microsoft 账户</title>
+    <link rel="stylesheet" href="./css/login/login.css">
+    <link rel="stylesheet" href="./css/index/public.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="logo">
+            <img src="./images/top/RE1Mu3b.png" alt="">
+        </div>
+        <div class="content">
+            <h2>登录</h2>
+            <input type="email" class="email" placeholder="电子邮件、电话">
+            <input type="password" class="password" placeholder="输入您的密码">
+            <div class="title">没有账户？ <a href="register.html">创建一个！</a></div>
+            <div class="register"><a href="">忘记了用户名</a></div>
+            <input type="submit" class="login" value="登 录">
+        </div>
+    </div>
+    <div class="foot">
+        <div class="content">
+            © Microsoft 2019
+            <a href="">使用条款</a>
+            <a href="">隐私与Cookie</a>
+        </div>
+    </div>
+
+    <script src="./js/animation.js"></script>
+    <script>
+
+        var content = document.getElementsByClassName('content')[0],
+            wrap = document.getElementsByClassName('wrap')[0];
+            console.log(wrap)
+        function display(){
+            animation(wrap,{
+                data:{
+                    opacity:1
+                },option:{
+                    // easing : 'Quint',
+			        // speed : 1
+                }
+            },500);
+           
+            animation(content,{
+                data:{
+                    opacity:1,
+                    right: 60
+                },option:{
+                    easing : 'Quint',
+			        speed : 1
+                }
+            },800);
+        }
+            // 设置一次定时器，界面打开后0.5s运行函数display
+            setTimeout(display,100);
+
+    </script>
+        
+
+</body>
+</html>

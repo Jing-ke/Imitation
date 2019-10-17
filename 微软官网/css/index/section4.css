@@ -1,0 +1,89 @@
+.section4{
+    float: left;
+    width: 100%;
+    /* height: 450px; */
+    margin-top: 60px;
+    /* background-color: red; */
+}
+.section4 .content{
+    width: 1600px;
+    height: 450px;
+    margin: 0 auto;
+    /* background-color: #ccc; */
+}
+.section4 .content h2{
+    margin-bottom: 30px;
+}
+.section4 ul:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.section4 .content li{
+    position: relative;
+    float: left;
+    width: 382px;
+    height: 343px;
+    margin-right: 24px;
+    /* background-color: red; */
+}
+.section4 .content li.des{
+    margin-right: 0px;
+}
+.section4 .content li img{
+    width: 382px;
+    height: 214px;
+}
+.section4 .content li h3{
+    font-family: "微软雅黑";
+    /* background-color: blue; */
+    font-weight: 500;
+    margin-top: 37px;
+}
+.section4 .content li h3.bold{
+    font-weight: bold;
+}
+.section4 .content li span{
+    display: block; 
+    font-family: "微软雅黑";
+    /* background-color: blue; */
+}
+.section4 .content li a{
+    position: absolute;
+    padding: 10px 3px 7px 2px;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    font-weight: bold;
+    color: #005da6;
+}
+
+.section4 .content li a:before{
+    position: absolute;
+    top: 83%;
+    left: 1px;
+    content: "";
+    width: 61px;
+    height: 0px;
+    background-color: #005da6;
+    opacity: 0;
+    transition: .3s;
+}
+.section4 .content li a:hover:before{
+    height: 2.5px;
+    opacity: .9;
+}
+.section4 .content li a:visited{
+    color: #005da6;
+}
+.section4 .content li a i{
+    position: absolute;
+    top: 13px;
+    left: 65px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transition: .5s;
+}
+.section4 .content li a:hover i{
+    left: 70px;
+}

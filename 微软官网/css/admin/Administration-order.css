@@ -1,0 +1,56 @@
+/* 订单查看 */
+.order-content{
+       /* display: none; */
+       position: absolute;
+       top: 100px;
+       left: 0px;
+       width: 1176px;
+       height: 700px;
+       padding: 50px 25px 0px 25px;
+       background-color: rgb(228,228,228);
+       /* background-color: red; */
+       box-sizing: border-box;   
+}
+.order-wrap{
+    width: 100%;
+    height: 550px;
+    margin-top: 15px;
+    border-top: 10px solid rgb(160,37,39);
+}
+.order-show{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    overflow: auto;
+}
+.order-show li:nth-of-type(2n){
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255,255,255);
+}
+.order-show li:nth-of-type(2n-1){
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233,233,233);
+}
+.order-show li.title{
+    font-size: 16px;
+}
+.order-show li.title>p{
+    /* float: left; */
+    display: inline-block;
+    width: 133px;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    /* background-color:yellow; */
+    overflow: hidden;
+   }
+   .order-show li>span{
+       display: inline-block;
+       width: 133px;
+       height: 50px;
+       text-align: center;
+       line-height: 50px;
+       overflow: hidden;
+   }

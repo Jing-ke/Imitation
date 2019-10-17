@@ -1,0 +1,507 @@
+.fix{
+    position: fixed;
+    top: 400px;
+    left: 300px;
+    width: 30px;
+    height: 200px;
+    z-index: 99;
+    /* background-color: red; */
+}
+.fix .one{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    transition: .5s;
+}
+.fix .one .text{
+    color: #fff;
+    display: none;
+}
+.fix .one a{
+    position: relative;
+}
+.fix .one i{
+    width: 12px;
+    height: 20px;
+    background-position: 0 -181px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+.fix .one:hover{
+    width: 80px;
+    border-radius: 80px;
+    background-color: #d43d4e;
+}
+.fix .one:hover .text{
+    display: block;
+    text-align: center;
+}
+.fix .one:hover i{
+    display: none;
+}
+
+/* two */
+.fix .two{
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+    border-radius: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    transition: .5s;
+}
+.fix .two .text{
+    color: #fff;
+    display: none;
+}
+.fix .two a{
+    position: relative;
+}
+.fix .two i{
+    width: 12px;
+    height: 20px;
+    background-position: -18px -180px;
+    position: absolute;
+    left: 11px;
+    top: 5px;
+}
+.fix .two:hover{
+    width: 80px;
+    border-radius: 80px;
+    background-color: #c2782f;
+}
+.fix .two:hover .text{
+    display: block;
+    text-align: center;
+}
+.fix .two:hover i{
+    display: none;
+}
+/* three */
+.fix .three{
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+    border-radius: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    transition: .5s;
+}
+.fix .three .text{
+    color: #fff;
+    display: none;
+}
+.fix .three a{
+    position: relative;
+}
+.fix .three i{
+    width: 20px;
+    height: 20px;
+    background-position: -31px -181px;
+    position: absolute;
+    left: 6px;
+    top: 5px;
+}
+.fix .three:hover{
+    width: 80px;
+    border-radius: 80px;
+    background-color: #296693;
+}
+.fix .three:hover .text{
+    display: block;
+    text-align: center;
+}
+.fix .three:hover i{
+    display: none;
+}
+/* four */
+.fix .four{
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+    border-radius: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    transition: .5s;
+}
+.fix .four .text{
+    color: #fff;
+    display: none;
+}
+.fix .four a{
+    position: relative;
+}
+.fix .four i{
+    width: 12px;
+    height: 19px;
+    background-position: -56px -180px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+.fix .four:hover{
+    width: 120px;
+    border-radius: 80px;
+    background-color: #6c9d0e;
+}
+.fix .four:hover .text{
+    display: block;
+    text-align: center;
+}
+.fix .four:hover i{
+    display: none;
+}
+/* five */
+.fix .five{
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+    border-radius: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+    transition: .5s;
+}
+.fix .five .text{
+    color: #fff;
+    display: none;
+}
+.fix .five a{
+    position: relative;
+}
+.fix .five i{
+    width: 12px;
+    height: 19px;
+    background-position: -39px -213px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+.fix .five:hover{
+    width: 80px;
+    border-radius: 80px;
+    background-color: #fe7a65;
+}
+.fix .five:hover .text{
+    display: block;
+    text-align: center;
+}
+.fix .five:hover i{
+    display: none;
+}
+
+.fix span{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    background: #f1f1f1;
+}
+.fix span i{
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    background-position: -74px -190px;
+}
+.fix span i:hover{
+    background-position: -95px -190px;
+}
+
+
+/* 右侧窗口定位 */
+.fix-right{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 35px;
+    height: 100%;
+    background-color: #fff;
+}
+.fix-right .top{
+    width: 35px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    /* height: 365px; */
+    margin-top: -182px;
+    /* background-color: yellow; */
+}
+.fix-right .top .my{
+    position: relative;
+    width: 35px;
+    padding: 10px 0;
+    cursor: pointer;
+    background: none;
+}
+.fix-right .top .my i{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-position: 0 -163px;
+}
+.fix-right .top .my span{
+    display: block;
+    font-family: "微软雅黑";
+    line-height: 16px;
+    color: #333333;
+    padding: 2px 0 0;
+}
+.fix-right .top .my:hover {
+    background-color: #cf1c23;
+}
+.fix-right .top .my:hover span{
+    color: #fff;
+}
+.fix-right .top .my:hover  i{
+    background-position: -20px -163px;
+}
+.fix-right .top .my:hover .myCon{
+    display: block;
+}
+.fix-right .top .my .myCon {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: -271px;
+    width: 270px;
+    height: 300px;
+    border: 1px solid #ccc;
+    /* background-color: orange; */
+    background-color: #fff;
+}
+.fix-right .top .my .myCon .sidebarUserPho{
+    float: left;
+    width: 270px;
+    padding: 18px 45px 16px;
+}
+.fix-right .top .my .myCon .sidebarUserPho img{
+    float: left;
+    width: 80px;
+    height: 80px;
+
+}
+.fix-right .top .my .myCon a{
+    color: #cc0000;
+}
+.fix-right .top .my .myCon .text{
+    float: left;
+    padding-left: 12px;
+    padding-top: 26px;
+    text-align: left;
+    color:#666;
+}
+.fix-right .top .my .myCon a:hover{
+    text-decoration: underline;
+}
+.fix-right .top .my .sidegongneng{
+    float: left;
+    width: 100%;
+    /* background-color: red; */
+}
+.fix-right .top .my .sidegongneng span{
+    float: left;
+    width: 135px;
+    height: 85px;
+    margin-bottom: 5px;
+    /* background-color: green; */
+}
+.fix-right .top .my .sidegongneng span i{
+    float: left;
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+    margin-left: 50px;
+   
+}
+.fix-right .top .my .sidegongneng span i.I1{
+    background-position: -64px -190px;
+}
+
+.fix-right .top .my .sidegongneng span i.I2{
+    background-position: -97px -190px;
+}
+.fix-right .top .my .sidegongneng span i.I3{
+    background-position: -158px -190px;
+}
+.fix-right .top .my .sidegongneng span i.I4{
+    background-position: -158px -219px;
+}
+.fix-right .top .my .sidegongneng span a{
+    float: left;
+    width: 135px;
+    height: 20px;
+    line-height: 40px;
+    color: #333;
+    text-align: center;
+}
+.fix-right .top .my .sidegongneng span a:hover{
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.fix-right .top .fav{
+    position: relative;
+    width: 35px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.fix-right .top .fav i{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-position: -40px -163px;
+}
+.fix-right .top .fav span{
+    display: block;
+    font-family: "微软雅黑";
+    line-height: 16px;
+    color: #333333;
+    padding: 2px 0 0;
+}
+.fix-right .top .fav:hover {
+    background-color: #cc0000;
+}
+.fix-right .top .fav:hover span{
+    color: #fff;
+}
+.fix-right .top .fav:hover i{
+    background-position: -60px -163px;
+}
+.fix-right .top .fav:hover .favCon{
+    display: block;    
+}
+.fix-right .top .fav .favCon{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 35px;
+    width: 270px;
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.fix-right .top .fav .favCon img{
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+.fix-right .top .fav .favCon p{
+    margin-top: 35px;
+    margin-left: 15px;
+    float: left;
+}
+.fix-right .top .fav .favCon p a:hover{
+    color: #cc0000;
+}
+
+
+
+.fix-right .top .cart{
+    position: relative;
+    width: 35px;
+    padding: 10px 0;
+    cursor: pointer;
+    background: none;
+}
+.fix-right .top .cart i{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-position: -120px -163px;
+}
+.fix-right .top .cart span{
+    display: block;
+    font-family: "微软雅黑";
+    line-height: 16px;
+    color: #333333;
+    padding: 2px 0 0;
+}
+.fix-right .top .cart:hover{
+    background-color: #cc0000;
+}
+.fix-right .top .cart:hover span{
+    color: #fff;
+}
+.fix-right .top .cart:hover i{
+    background-position: -140px -163px;
+}
+
+.fix-right .top .tell{
+    position: relative;
+    width: 35px;
+    padding: 10px 0;
+    cursor: pointer;
+    background: none;
+}
+.fix-right .top .tell i{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-position: -45px -331px;
+}
+.fix-right .top .tell span{
+    display: block;
+    font-family: "微软雅黑";
+    line-height: 16px;
+    color: #333333;
+    padding: 2px 0 0;
+}
+.fix-right .top .tell:hover{
+    background-color: #cc0000;
+}
+.fix-right .top .tell:hover span{
+    color: #fff;
+}
+.fix-right .top .tell:hover i{
+    background-position: -65px -331px;
+}
+
+
+.fix-right .bot{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 126px;
+}
+.fix-right .bot span{
+    display: block;
+    width: 25px;
+    height:22px;
+    padding: 10px 0 10px 8px; 
+}
+.fix-right .bot span:hover{
+    background-color: #cc0000;
+}
+.fix-right .bot span i{
+    float: left;
+    display: block;
+    width: 19px;
+    height: 19px;
+}
+.fix-right .bot span i.I1{
+    background-position: 0px -184px;
+}
+.fix-right .bot span i.I2{
+    background-position: -19px -184px;
+}
+
+.fix-right .bot span i.I3{
+    background-position: -40px -184px;
+}
+
+

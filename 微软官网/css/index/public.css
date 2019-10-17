@@ -1,0 +1,32 @@
+body,ul,li,h5,h4,h3,h2,h1,img,input,button,p{
+    margin: 0;
+    padding: 0;
+    /* -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+}
+*{
+    font-family: "微软雅黑";
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* 清除浮动引起的父级塌陷 */
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+/* 去除input搜索框后面叉 */
+input::-webkit-search-cancel-button{
+    display: none;
+}
+input::-webkit-search-cancel-button{
+    display: none;
+}

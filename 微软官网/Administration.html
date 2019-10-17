@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./images/网站icon/bitbug_favicon(3).ico" />
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/index/public.css">
+    <link rel="stylesheet" href="./css/admin/Administration.css">
+    <link rel="stylesheet" href="./css/admin/Administration-add.css">
+    <link rel="stylesheet" href="./css/admin/Administration-order.css">
+    <link rel="stylesheet" href="./css/admin/Administration-customerInfo.css">
+    <title>Administration</title>
+    <script src="./js/animation.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <!-- 菜单 -->
+        <div class="nav-wrap">
+            <div class="logo">
+                <img src="./images/top/电脑.png" alt="">
+                <span>急速电脑商城系统</span>
+            </div>
+            <div class="nav">
+                <!-- 下拉菜单标题一 -->
+                <div class="listTitle on">
+                    <i class="iconfont icon-chakan"></i><p>商品查看</p>
+                </div>
+                <div class="listTitle">
+                    <i class="iconfont icon-shangpinguanli"></i>商品添加
+                </div>
+                <div class="listTitle">
+                    <i class="iconfont icon-shanchu"></i>商品删除
+                </div>
+                <div class="listTitle">
+                    <i class="iconfont icon-weibiaoti2010104"></i>商品修改
+                </div>
+                <div class="listTitle">
+                    <i class="iconfont icon-dingdan"></i>订单查看
+                </div>
+                <div class="listTitle">
+                    <i class="iconfont icon-kehu"></i>客户信息
+                </div>
+            </div>
+        </div>
+        <!-- 对应面板 -->
+        <div class="plane-wrap">
+            <!-- 管理员信息 -->
+            <div class="admin-info">
+                <div class="funIcon">
+                    <i class="iconfont icon-gongneng"></i>
+                </div>
+                <div class="adminFun">
+                    <p>欢迎您进入急速电脑商城系统！</p>
+                    <img src="./images/admin/头像 男孩.png" alt="">
+                    <p class='name'>张三</p>
+                    <i class="iconfont icon-lingdang1"></i>
+                    <i class="iconfont icon-ai240"></i>
+                </div>
+            </div>
+            <!-- 商品查看内容 -->
+            <div class="DB on">
+                <div class="goodsView-content">
+                    <!-- 搜索 -->
+                    <form action="">
+                        <input type="search" class="search">
+                        <i class='iconfont icon-sousuo search-icon'></i>
+                    </form>
+                    <!-- 商品显示 -->
+                    <div class="info-wrap">
+                        <ul class="info-content">
+                            <li class="title">
+                                <p>商品图片</p>
+                                <p>商品号</p>
+                                <p>商品品牌</p>
+                                <p>商品型号</p>
+                                <p>商品数量</p>
+                                <p>商品价格</p>
+                                <p>商品详情</p>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s1.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s2.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s3.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s5.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                            <span>
+                                <img src="./images/goods/s1.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s2.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s3.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                        </li>
+                        <li>
+                                <span>
+                                    <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                        </ul>
+                        <!-- <ul class="page">
+                            <li></li>
+                        </ul> -->
+                    </div>
+                    <!-- 页码 -->
+                    <!-- <div class="page-wrap">
+                        <span>首页</span>
+                        <span><a class="iconfont icon-zuojiantou"></a>上一页</span>      
+                        <div class="page-count">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>....</span>
+                            <span>20</span>
+                        </div>
+                        <span>下一页<i class="iconfont icon-arrow-right-copy-copy-copy"></i></span>
+                    </div> -->
+                </div>
+            </div>
+            <!-- 商品添加 -->
+            <div class="DB">
+                <div class="goodsAdd-content">
+                    <h4>商品添加</h4>
+                    <form action="">
+                        <div class="add">
+                            <span>添加图片</span>
+                            <input type="file">
+                        </div>
+                        <div class="add">
+                            <span>添加商品品牌</span>
+                            <input type="text">
+                        </div>
+                        <div class="add">
+                            <span>添加商品名</span>
+                            <input type="text">
+                        </div>
+                        <div class="add">
+                            <span>添加商品数量</span>
+                            <input type="text">
+                        </div>
+                        <div class="add">
+                            <span>添加商品价格</span>
+                            <input type="text">
+                        </div>
+                        <div class="add">
+                            <span>添加商品详情</span>
+                            <input type="text">
+                        </div>
+                        <div class="add">
+                            <span>添加商品型号</span>
+                            <select>
+                                <option value="">【2019新品】R5 8G 512G 高清屏</option>
+                                <option value="">【2019新品】R5 8G 256G 高清屏</option>
+                                <option value="">【高配版】R5 8G 512G 高清屏</option>
+                                <option value="">【爆款版】R5 8G 256G 高清屏</option>
+                            </select>
+                        </div>
+                        <div class="add">
+                            <span>添加商品详情图</span>
+                            <input type="text">
+                        </div>
+                        <input type="submit" class="submit">
+                    </form>
+                </div> 
+            </div>
+            <!-- 商品删除 -->
+            <div class="DB">
+                <div class="goodsDelete-content">
+                    <form action="">
+                        <input type="search" class="search">
+                        <i class='iconfont icon-sousuo search-icon'></i>
+                    </form>
+                    <!-- 商品显示 -->
+                    <div class="info-wrap">
+                        <ul class="info-content">
+                            <li class="title">
+                                <p>商品图片</p>
+                                <p>商品号</p>
+                                <p>商品品牌</p>
+                                <p>商品型号</p>
+                                <p>商品数量</p>
+                                <p>商品价格</p>
+                                <p>商品详情</p>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s1.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                                <!-- <span></span> -->
+                                <i class="iconfont icon-shanchu1"></i>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s2.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                                <i class="iconfont icon-shanchu1"></i>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s3.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                                <i class="iconfont icon-shanchu1"></i>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                                <i class="iconfont icon-shanchu1"></i>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s5.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                                <i class="iconfont icon-shanchu1"></i>
+                            </li>
+                            <li>
+                            <span>
+                                <img src="./images/goods/s1.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                            <i class="iconfont icon-shanchu1"></i>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s2.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                            <i class="iconfont icon-shanchu1"></i>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s3.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                            <i class="iconfont icon-shanchu1"></i>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                            <i class="iconfont icon-shanchu1"></i>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                            <i class="iconfont icon-shanchu1"></i>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                            <i class="iconfont icon-shanchu1"></i>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 商品修改 -->
+            <div class="DB">
+                <div class="goodsAmend-content">
+                     <!-- 搜索 -->
+                     <form action="">
+                        <input type="search" class="search">
+                        <i class='iconfont icon-sousuo search-icon'></i>
+                    </form>
+                    <!-- 商品显示 -->
+                    <div class="info-wrap">
+                        <ul class="info-content">
+                            <li class="title">
+                                <p>商品图片</p>
+                                <p>商品号</p>
+                                <p>商品品牌</p>
+                                <p>商品型号</p>
+                                <p>商品数量</p>
+                                <p>商品价格</p>
+                                <p>商品详情</p>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s1.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s2.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s3.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                                <span>
+                                    <img src="./images/goods/s5.jpg" alt="" class="goods-img">
+                                </span>
+                                <span class="goods-id">ID-00001</span>
+                                <span class="goods-brand">ThinkPad</span>
+                                <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                                <span class="goods-count">45台</span>
+                                <span class="goods-price">￥7,088.00</span>
+                                <span class="goods-detail">
+                                    ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                                </span>
+                            </li>
+                            <li>
+                            <span>
+                                <img src="./images/goods/s1.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s2.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s3.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <img src="./images/goods/s4.jpg" alt="" class="goods-img">
+                            </span>
+                            <span class="goods-id">ID-00001</span>
+                            <span class="goods-brand">ThinkPad</span>
+                            <span class="goods-model">Carbon 2018-20KH000BCD</span>
+                            <span class="goods-count">45台</span>
+                            <span class="goods-price">￥7,088.00</span>
+                            <span class="goods-detail">
+                                ThinkPad X1 Carbon 2018-20KH000BCD(联想) 14英寸笔记本电脑(四核i5-8250U 8G 512G SSD固态硬盘 IPS高清屏 摄像头 蓝牙 指纹 背光键盘 WIN10)
+                            </span>
+                        </li>
+                        </ul>
+                        <ul class="page">
+                            <li></li>
+                        </ul>
+                    </div>
+                    <!-- 页码 -->
+                    <div class="page-wrap">
+                        <span>首页</span>
+                        <span><a class="iconfont icon-zuojiantou"></a>上一页</span>      
+                        <div class="page-count">
+                            <span>1</span>
+                            <span>2</span>
+                            <span>3</span>
+                            <span>4</span>
+                            <span>....</span>
+                            <span>20</span>
+                        </div>
+                        <span>下一页<i class="iconfont icon-arrow-right-copy-copy-copy"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- 订单查看 -->
+            <div class="DB">
+                <div class="order-content">
+                    <!-- 订单查看标题 -->
+                    <h3>订单显示</h3>
+                    <div class="order-wrap">
+                        <ul class="order-show">
+                            <li class="title">
+                                <p>订单号</p>
+                                <p>商品名</p>
+                                <p>商品信号</p>
+                                <p>商品价格</p>
+                                <p>商品个数</p>
+                                <p>订购客户</p>
+                                <p>客户手机</p>
+                                <p>收货地址</p>
+                            </li>
+                            <li>
+                                <span>DBH201950001</span>
+                                <span>ThinkPad 2019</span>
+                                <span title="华为（HUAWEI） MateBook X 13英寸轻薄微边框笔记本电脑i5/i7金属商务超极本">华为（HUAWEI） MateBook X 13英寸轻薄微边框笔记本电脑i5/i7金属商务超极本</span>
+                                <span>￥7,088.00</span>
+                                <span>5</span>
+                                <span title="15709625044@qq.com">15709625044@qq.com</span>
+                                <span>15709625044</span>
+                                <span title="宁西回族自治区 石嘴山市 大武口区 星海镇">宁西回族自治区 石嘴山市 大武口区 星海镇</span>
+                            </li>
+                            <li>
+                                <span>DBH201950001</span>
+                                <span>ThinkPad 2019</span>
+                                <span title="华为（HUAWEI） MateBook X 13英寸轻薄微边框笔记本电脑i5/i7金属商务超极本">华为（HUAWEI） MateBook X 13英寸轻薄微边框笔记本电脑i5/i7金属商务超极本</span>
+                                <span>￥7,088.00</span>
+                                <span>5</span>
+                                <span title="15709625044@qq.com">15709625044@qq.com</span>
+                                <span>15709625044</span>
+                                <span title="宁西回族自治区 石嘴山市 大武口区 星海镇">宁西回族自治区 石嘴山市 大武口区 星海镇</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 客户信息 -->
+            <div class="DB">
+                <div class="customerInfo-content">
+                    <h3>客户信息</h3>
+                    <div class="cusInfo-warp">
+                        <ul class="cusInfo-show">
+                            <li class="title">
+                                <p>客户ID</p>
+                                <p>客户名称</p>
+                                <p>客户密码</p>
+                            </li>
+                            <li>
+                                <span>1</span>
+                                <span>15709625044@qq.com</span>
+                                <span>123</span>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 切换菜单栏 -->
+    <script>
+        var navList = document.getElementsByClassName("listTitle"),
+            DB = document.getElementsByClassName('DB'),
+            index = 0;
+        console.log(navList)
+        for(var i = 0;i<navList.length;i++){
+            (function(i){
+                navList[i].onclick =  function(){
+                    navList[index].className = 'listTitle';
+                    DB[index].className = 'DB';
+                    index = i;
+                    navList[index].className = 'listTitle on';
+                    DB[index].className = 'DB on';
+                    console.log(DB[index])
+                    console.log(index)
+                }
+            })(i)
+        }
+    </script>
+    <!-- 商品修改 -->
+    <script>
+        var father = document.getElementsByClassName('goodsAmend-content')[0],
+            liList = father.getElementsByTagName('li');
+            for(var i = 0;i<liList.length-1;i++){
+                (function(i){
+                    //鼠标移入获取当前移入的li
+                    liList[i].onmouseenter = function(){
+                        console.log(this)
+                        // 通过当前移入获取到的li获取当前li中的所有span标签
+                        var spanList = this.getElementsByTagName('span');
+                        console.log(spanList)
+                        // 利用遍历获取当前所有li中的span
+                        for(var i = 0;i<spanList.length;i++){
+                            // 当span下标为0时，是添加照片
+                            if(i == 0){
+                                spanList[i].onclick = function(){
+                                    this.innerHTML = 'img'
+                                    // 添加input文件选择器
+                                    this.innerHTML = `<input type='file'>`
+                                    // 移除当前span标签
+                                    // this.remove(); 
+                                    // 为其添加文件选择器
+                                }
+                            }else{
+                                // 当span下标不为0时，为修改文本
+                                spanList[i].onclick = function(){
+                                    this.innerHTML = `<input type="text">`; 
+                                    // this.innerHTML =`<input type ='text'>`
+                                }
+                            }
+                            
+                        }
+                    }
+                        // var spanList =  liList[i].getElementsByTagName('span');
+                        // 遍历当前选中li中的span
+                        // for(var i = 0;i<spanList){
+
+                        // }
+                })(i)
+            }
+        console.log(father)
+        console.log(liList)
+    </script>
+</body>
+</html>

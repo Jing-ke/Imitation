@@ -1,0 +1,60 @@
+/* 商品添加 */
+.goodsAdd-content{
+    /* display: none; */
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 1176px;
+    height: 700px;
+    padding: 50px 25px 0px 25px;
+    background-color: rgb(228,228,228);
+    box-sizing: border-box;
+}
+
+.goodsAdd-content input{
+    width: 200px;
+    height: 25px;
+    /* border: none; */
+    outline: none;
+    box-sizing: border-box;
+}
+.goodsAdd-content .add{
+    width: 100%;
+    padding: 15px ;
+    box-sizing:border-box;
+}
+.goodsAdd-content .add:nth-of-type(2n){
+    background-color: #fff;
+}
+.goodsAdd-content .add:nth-of-type(2n-1){
+    background-color: rgb(233,233,233);
+}
+
+.goodsAdd-content>form{
+    /* border: 1px solid #ccc; */
+    border-top: 2px solid rgb(160,37,39);
+    margin: 5px 0 5px 0;
+}
+ .goodsAdd-content input.submit{
+     float: right;
+    width: 150px;
+    height: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: rgb(160,39,33);
+    cursor: pointer;
+}
+.goodsAdd-content input.submit:hover{
+    background-color: rgb(124, 26, 21);
+}
+.goodsAdd-content span{
+    display: inline-block;
+    width: 150px;
+    line-height: 25px;
+}
+.goodsAdd-content input{
+    display: inline-block;
+}

@@ -1,0 +1,155 @@
+.section1{
+    float: left;
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+}
+.section1 .navWrap{
+    position: relative;
+    position: relative;
+    width: 1600px;
+    height: 600px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+/* 商品描述 */
+.section1 .navWrap .description{
+    display: inline;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    /* width: 470px; */
+    /* height: 100px; */
+    /* background-color: red; */
+    opacity: 0;
+}
+/* 商品描述标题 */
+.section1 .navWrap .description h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+.section1 .navWrap .description p{
+    display: block;
+    /* width: 400px; */
+    margin-top: 20px;
+    /* text-align: center; */
+    color: #fff;
+}
+
+.section1 .navWrap .description a{
+    position: absolute;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 38px 9px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+}
+.section1 .navWrap .description a:before{
+    position: absolute;
+    top: 80%;
+    left: 23px;
+    content: "";
+    width: 61px;
+    height: 0px;
+    background-color: #000;
+    opacity: 0;
+    transition: .3s;
+}
+
+.section1 .navWrap .description a:hover:before{
+    height: 2px;
+    opacity: .9;
+}
+.section1 .navWrap .description a:visited{
+    color: #000;
+}
+.section1 .navWrap .description a i{
+    position: absolute;
+    top: 13px;
+    left: 95px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transition: .5s;
+}
+.section1 .navWrap .description a:hover i{
+    left: 100px;
+}
+.section1 .picWrap{
+    list-style: none;
+}
+.section1 .picWrap li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.section1 .picWrap li.on{
+    opacity: 1;
+}
+.section1 .picWrap li img{
+    width: 1600px;
+    height: 600px;
+}
+.section1 .btnWrap{
+    position: absolute;
+    top: calc( 100% - 50px);
+    left: calc( 50% - 50px);
+    list-style: none;
+}
+.section1 .btnWrap li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+.section1 .btnWrap li.on{
+    background-color:#fff;
+    border: 1px solid #fff;
+}
+.section1 .btnWrap li:hover{
+    background-color: rgba(255,255,255,.5);
+    border: 1px solid #fff;
+}
+.section1 .btn div{
+    position: absolute;
+    top: calc(50% - 30px);
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.section1 .btn div:hover{
+    background-color: rgba(85, 82, 82, .5);
+}
+.section1 .btn .prve 
+/*  .section1 .btn .prve i{
+    position:absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+} */
+.section1 .btn .prve i.iconfont{
+    font-size: 25px;
+} 
+.section1 .prve{
+    left: 0;
+}
+.section1 .prve{
+    transform: rotate(180deg)
+}
+.section1 .next{
+    right: 0;
+} 

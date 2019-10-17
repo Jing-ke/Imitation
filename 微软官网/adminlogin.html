@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./images/网站icon/bitbug_favicon(3).ico" />
+    <link rel="stylesheet" href="./css/index/public.css">
+    <link rel="stylesheet" href="./css/admin/adminlogin.css">
+    <title>Admin-login</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="register">
+            <div class="logo"><img src="./images/top/RE1Mu3b.png" alt=""></div>
+            <h2>注册</h2>
+            <span>还没有管理员账户？</span>
+            <a class="reg-btn">现在注册</a>
+        </div>
+
+        <!-- 登录 -->
+        <div class="login">
+            <h2>Admin登录</h2>
+            <div class="content">
+                <form action="">
+                    <h3>用户名：</h3>
+                    <h3>密码：</h3> 
+                    <input type="text" class="name">
+                    <input type="password" class="password">
+                    <a href="" class="forget">忘记密码？</a>
+                    <button type="submit">登录</button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- 注册 -->
+        <div class="login second">
+            <h2>Admin注册</h2>
+            <div class="content">
+                <form action="">
+                    <h3>用户名：</h3>
+                    <h3>密码：</h3> 
+                    <input type="text" class="name">
+                    <input type="password" class="password">
+                    <a href="" class="forget">注册完成？去登录</a>
+                    <button type="submit">注册</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/animation.js"></script>
+    <script>
+        var wrap = document.getElementsByClassName('wrap')[0],
+            regBtn = document.getElementsByClassName('reg-btn')[0],
+            login = document.getElementsByClassName('login'),
+            num=50;
+            console.log(login[0])
+            console.log(login[1])
+            
+        function display(){
+            animation(wrap,{
+                data:{
+                    opacity:1,
+                    right: 550
+                },option:{
+                    easing : 'Elastic',
+			        speed : 1
+                }
+            },1000);
+        }
+            // 设置一次定时器，界面打开后0.5s运行函数display
+            setTimeout(display,500);
+        regBtn.onclick = function(){   //注册按钮被点击时
+            login[0].style.display = 'none';
+            login[1].style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>

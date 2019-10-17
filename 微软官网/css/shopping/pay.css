@@ -1,0 +1,368 @@
+body{
+    /* position: fixed; */
+    /* left: 0; */
+    /* top: 0; */
+    width: 100%;
+    /* height: 100%; */
+    background: url(../../images/login/timg.jpg);
+    background-color: #fff;
+    background-size: 100%; 
+}
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 983px;
+    padding-top: 150px;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* background-color: #fff; */
+    box-sizing: border-box;
+    opacity: 0;
+}
+.wrap{
+    position: absolute;
+    top: -1000px;
+    left: 480px;
+    width: 990px;
+    /* height: 1500px; */
+    margin: 0 auto;
+    padding: 20px 15px;
+    background-color: #fff;
+}
+.wrap h2{
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: #fff;
+    color: #666;
+    /* background-color: red; */
+}
+.wrap .content{
+    width: 100%;
+    /* height: 500px; */
+    padding: 0px 10px 10px 10px;
+    /* background-color: blue; */
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    /* color: #fff; */
+    color: #666;
+}
+.content h4.info{
+    font-size: 14px;
+    margin: 20px 0;
+    /* margin-bottom: 10px; */
+}
+.content .shou{
+    /* padding: 0 30px; */
+    margin: 0 30px 10px 30px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.content>.name{
+    display: inline-block;
+    /* width: 100px; */
+    padding: 5px 50px;
+    /* line-height: 23px; */
+    text-align: center;
+    font-size: 12px;
+    /* margin-left: 20px; */
+    /* padding-left: 20px; */
+    border: 2px solid red;
+    /* border: 2px solid #000; */
+}
+.content .nameDetail{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.content .change{
+    display: inline-block;
+    margin-left:25px;
+    width: 50px;
+    text-align: center;
+    background-color: #ccc;
+    /* background-color: #000; */
+    cursor: pointer;
+}
+.content .moreAdress{
+    font-size: 12px;
+    margin: 10px 0 25px 0;
+    /* margin-top: 25px; */
+}
+.content .payfun{
+    position: relative;
+    margin: 0 30px 10px 30px;
+    padding-bottom: 25px;
+    font-size: 12px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.content .payfun .paychoice{
+    float: left;
+    /* display: inline-block; */
+    margin-right: 10px;
+    padding: 5px 24px;
+    border: 1px solid #f0f0f0;
+    cursor: pointer;
+}
+.content .payfun .paychoice:hover{
+    border: 2px solid red;
+    /* border: 2px solid #000; */
+    padding: 4px 23px;
+}
+.content .payfun .morechoice{
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* 送货清单 */
+.goods-content{
+    padding: 10px;
+    /* background-color: red; */
+}
+.goods-content .transport{
+    float: left;
+    width: 300px;
+    /* height: 239px; */
+    font-size: 12px;
+    padding: 10px 20px;
+    padding-left: 20px;
+    background-color: rgb(247,247,247);
+    /* box-sizing: border-box; */
+}
+.content h5.info{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.goods-content .transport .choice{
+    /* float: left; */
+    padding: 5px 35px;
+    margin-right: 178px;
+    /* width: 150px; */
+    /* height: 25px; */
+    margin-bottom: 30px;
+    border: 2px solid red;
+}
+.goods-content .transport .time{
+    /* float: left; */
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.goods-content .transport .time>span{
+    color: #999;
+}
+.goods-content .transport .back span{
+    margin-left: 20px;
+    color: red;
+}
+.goods-content .transport .descri{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: #999;
+    line-height: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.goods-content .transport .descri a{
+    color: #005ea7;
+}
+.goods-content .goods{
+    float: left;
+    width: 588px;
+    /* height: 400px; */
+    padding: 10px;
+    /* background-color: blue; */
+    background-color: rgb(243,251,254);
+}
+.goods-content .goods .goods-wrap li{
+    width: 100%;
+    /* height: 200px; */
+    margin: 10px 0;
+    padding: 10px;
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+.goods-content .goods .goods-wrap li img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0px 0px;
+}
+.goods-wrap li .descri{
+    float: left;
+    width: 250px;
+    height: 100px;
+    padding-top: 25px;
+    padding: 25px 0 0 10px; 
+    /* backgrpx ound-color: red; */
+    font-size: 12px;
+    box-sizing: border-box;
+}
+.goods-wrap li .descri .title{
+    float: left;
+    /* margin-top: 25px; */
+}
+.goods-wrap li .descri .title a{
+    color: #666;
+}
+.goods-wrap li .descri .title a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.goods-wrap li .descri .color{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #666;
+}
+.goods-wrap li .descri .color span{
+    color: #999;
+}
+.goods-wrap li .price{
+    float: left;
+    margin: 27px 45px;
+    text-align: right;
+    color: red;
+}
+.goods-wrap li .price span{
+    color: #999;
+    font-size: 12px;
+    /* text-align: right; */
+}
+.goods-wrap li .count{
+    float: left;
+    line-height: 100px;
+    font-size: 15px;
+    color: #666;
+}
+/* 总计 */
+.wrap>.total{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 0;
+    font-size: 12px;
+    /* border-bottom: 1px solid #f2f2f2; */
+}
+.total>.totalPrice .title{
+    float: right;
+    margin-bottom: 10px;
+    color: #666;
+    /* float: right; */
+}
+.total>.totalPrice .title p{
+    display: inline-block;
+    color: red;
+}
+.total>.freight .title{
+    /* display: block; */
+    float: right;
+    color: #666;
+}
+.total .price{
+    display: block;
+    float: right;
+    width: 100px;
+    height: 20px;
+    padding-right: 30px;
+    text-align: right;
+    font-size: 14px;
+    color: #000;
+    /* background-color: blue; */
+}
+/* 核对信息 */
+.wrap>.check{
+    float: left;
+    width: 100%;
+    /* height: 50px; */
+    /* background-color: red; */
+    padding: 20px 0;
+    border-top: 1px solid rgb(202, 202, 202);
+    background-color: rgb(247,247,247);
+}
+.check>.price{
+    margin-bottom: 15px;
+}
+.check>.price>.title{
+    float: right;
+}
+.check>.price>.price{
+    float: right;
+    width: 120px;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+}
+.check>.adress{
+    color: #999;
+    font-size: 12px;
+    text-align: right;
+    padding-right:20px;
+}
+.check>.adress .title>.adress{
+    margin-right: 20px;
+}
+/* 提交订单 */
+.wrap>.submit{
+    float: right;
+    background-color: rgb(227,67,63);
+    color: #fff;
+    font-weight: 700;
+    margin: 15px 20px 0 0;
+    padding: 8px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.wrap>.submit:hover{
+    background-color: rgb(185, 54, 52);
+}
+
+/* 编辑地址 */
+.Adress{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 983px;
+    background-color: rgba(0,0,0,.8);
+}
+.Adress .content{
+    width: 600px;
+    /* height: 500px; */
+    background-color: #fff;
+    margin: 150px auto;
+}
+.Adress .content .close{
+    display: block;
+    float: right;
+    margin: 10px 14px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Adress .content .addInfo{
+    padding-top: 40px;
+    padding: 80px;
+}
+.Adress .content .addInfo>.small-wrap{
+    margin: 15px 0;
+}
+.Adress .content .addInfo>.addAdress{
+    float: right;
+    margin-top: 15px;
+    padding: 5px 20px;
+    color: #fff;
+    background-color: rgb(227,67,63);
+    cursor: pointer;
+}
+.addInfo>.small-wrap>span{
+    display: inline-block;
+    width: 150px;
+}
+.addInfo>.small-wrap>input{
+    width: 200px;
+    height: 20px;
+}

@@ -1,0 +1,350 @@
+
+.top{
+    float: left;
+    width: 100%;
+    height: 54px;
+    /* background-color: #666; */
+}
+.top_section{
+    width: 1600px;
+    height: 54px;
+    margin: 0 auto;
+    /* background-color: #999; */
+}
+.top_section_content{
+    position: relative;
+    height: 54px;
+    margin: 0 auto;
+    /* background-color: #333; */
+}
+.top_logo{
+    float: left;
+    display: block;
+    width: 137px;
+    height: 54px;
+    padding: 16px 6px 16px 6px;
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+.top_logo img{
+    float: left;
+    width: 108px;
+    height: 23px;
+    /* background-color: blue; */
+}
+.top_nav{
+    float: left;
+    height: 100%;
+    /* background-color: blue; */
+}
+.top_nav ul{
+    float: left;
+    width: 500px;
+    height: 49px;
+    /* background-color: green; */
+}
+.top_nav ul li{
+    display: inline-block;
+}
+.top_nav ul li a{
+    display: inline-block;
+    margin: 1px 8px 0 8px ;
+    padding: 20px 0 0 ;
+    color: #000;
+    font-family: '微软雅黑';
+    font-size: 13px;
+}
+.top_nav ul li a:hover{
+    border-bottom: 2px solid #000;
+}
+/* 右侧工具 */
+.top_section_content .right-tools{
+    float: right;
+    /* width: 525px; */
+    height: 100%;
+    /* background-color: yellow; */
+    color: #000;
+    font-family: '微软雅黑';
+    font-size: 13px;
+    box-sizing: border-box;
+}
+.top_section_content .right-tools a{
+    color: #000;
+}
+.top_section_content span{
+    float: left;
+    position: relative;
+    display: block;
+    height: 54px;
+    margin: 0 35px 0 8px;
+    padding: 20px 0 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.top_section_content span:after{
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000;
+}
+.top_section_content span:hover:after{
+    left: 0%;
+    width: 100%;
+}
+/* 显示所有Microsoft下拉菜单 */
+.top_section_content .wf-menu{
+    float: left;
+    display: inline-block;
+}
+.top_section_content span:hover .wf-menu_child{
+    display: block;
+}
+.top_section_content span i{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 14px;
+    font-weight: bold;
+    /* background-color: red; */
+}
+/* 所有Microsoft下拉菜单 */
+.top_section_content span .wf-menu_child{
+    display: none;
+    position: absolute;
+    top: 53px;
+    left: -900px;
+    width: 1170px;
+    height: 310px;
+    /* background-color: red; */
+    box-shadow: 0px 6px 20px #ccc;
+    z-index: 999;
+}
+.top_section_content span .wf-menu_child .title{
+    padding: 17px 30px 17px 24px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.top_section_content span .wf-menu_child .content{
+    padding: 17px 30px 17px 24px;
+    box-sizing: border-box;
+}
+/* 下拉菜单的中li*/
+.top_section_content .wf-menu_child li{
+    float: left;
+    width: 195px;
+    height: 310px;
+    /* border-right: 1px solid #000; */
+    background-color: #F5F5F5;
+    overflow: hidden;
+    
+}
+.top_section_content .wf-menu_child li a{
+}   
+.top_section_content .wf-menu_child li a:hover{
+    border-bottom: 1px solid #000;
+}
+.top_search{
+    position: relative;
+    float: left;
+    height: 54px;
+    margin: 0 35px 0 20px;
+    padding: 20px 0 0;
+    /* background-color: red; */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.top_search i{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    /* background-color: red; */
+}
+.top_search::before{
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000;
+}
+.top_search:hover:before{
+    left: 0%;
+    width: 27px;
+}
+/* 购物车 */
+.top_sCart{
+    position: relative;
+    float: left;
+    height: 54px;
+    margin: 0 20px 0 20px;
+    padding: 20px 0 0;
+    /* background-color: red; */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.top_sCart:before{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000;
+}
+.top_sCart:hover:before{
+    left: 0%;
+    width: 40px;
+}
+.top_sCart i{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+/* 登录 */
+.right-tools .login{
+    position: relative;
+    float: left;
+    height: 54px;
+    margin: 0 20px 0 20px;
+    padding: 20px 0 0;
+    /* background-color: red; */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.right-tools .login i{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.right-tools .login>a::after{
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000;
+}
+.right-tools .login>a:hover:after{
+    left: 0%;
+    width: 88px;
+}
+/* 注销 */
+.right-tools .cancellationWarp{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 320px;
+    height: 180px;
+    background-color: #fff;
+    box-shadow: 0 24px 54px rgba(0,0,0,.15),0 4.5px 13.5px rgba(0,0,0,.08);
+    z-index: 2;
+    /* background-color: red; */
+}
+.cancellationWarp .cancellationBtn{
+    float: right;
+    width: 50px;
+    height: 50px;
+    color: #333;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+   
+}
+.cancellationBtn:hover{
+    background-color: #e9e9e9;
+}
+.cancellationWarp .cancelinfo-Warp{
+    width: 100%;
+    height: 130px;
+    margin-top: 16px;
+    /* background-color: red; */
+}
+.cancellationWarp img{
+    width: 75px;
+    height: 16px;
+    margin: 15px 0px 0px 20px;
+}
+.cancelinfo-Warp>i.size{
+    float: left;
+   display: inline-block;
+   width: 120px;
+   height: 120px;
+   padding: 20px;
+   font-size: 80px;
+   text-align: center;
+   line-height: 80px;
+   color: #666;
+   /* background-color: green; */
+   box-sizing: border-box;
+}
+.cancelinfo-Warp>.name{
+    float: left;
+    /* margin-top: 50px; */
+    padding: 35px 144px 5px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.cancelinfo-Warp>.account{
+    float: left;
+    padding-left: 20px;
+    color: #666;
+}
+/* 登录二级菜单 */
+.right-tools .login .child{
+    display: none;
+    position: absolute;
+    top: 200px;
+    padding: 10px 5px;
+    background-color: #FFFAFA;
+    z-index: 999;
+    opacity: 0;
+}
+.right-tools .login .child a{
+    display: inline-block;
+    margin: 5px 0 5px 0;
+}
+.right-tools .login .child a:hover{
+    border-bottom: 1px solid #000;
+}
+/* 未显示的搜索框 */
+.top .top_section .search{
+    position: absolute;
+    display: none;
+    top: 0px;
+    right: 50px;
+    height: 54px;
+    /* background-color: red; */
+}
+.top .top_section .search .search-con{
+    width: 1300px;
+    height: 36px; 
+    margin-top: 10px;
+    padding: 7px 38px 7px 10px;
+    border: 2px solid #000;
+    outline: none;
+}
+.top .top_section .search .cancel{
+    display: inline-block;
+    margin-left: 25px;
+    cursor:pointer;
+}
+.top .top_section .search .searchIconBtn{
+    position: absolute;
+    top: 12px;
+    right: 75px;
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: url(../../images/top/searchBtn.png);
+    background-size: 100%;
+}

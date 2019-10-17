@@ -1,0 +1,476 @@
+/*头顶部开始*/
+.topHeader{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+/*顶部头容器*/
+.topHeader .container{
+    width: 1200px;
+    margin: 0 auto ;
+    height: 26px;
+    background-color: #f2f2f2;
+}
+/*顶部头左侧*/
+.topHeaderLeft{
+    float: left;
+    width: 370px;
+    height: 26px;
+    /* background-color: blue; */
+}
+/*顶部头左侧 p标签*/
+.topHeaderLeft p{
+    float: left;
+    margin-right: 6px;
+    line-height: 26px;
+    color: #999;
+}
+/*顶部头左侧 a标签*/
+ .topHeaderLeft a{
+    float: left;
+    margin-right: 6px;
+    line-height: 26px;
+    color: #999;
+    text-decoration: none;
+}
+/*顶部头左侧 a标签鼠标上移*/
+.topHeaderLeft a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/*顶部头右侧*/
+.topHeaderRight{
+    float: right;
+    height: 26px;
+}
+/*顶部头右侧 ul*/
+.topHeaderRight  ul{
+    list-style: none;
+    /* background-color: yellow; */
+}
+/*顶部右侧li公共样式*/
+.topHeaderRight ul li{
+    float: left;
+    height: 26px;
+    padding: 0px 4px 0px 7px;                             /*公共样式*/
+    line-height: 26px;
+}
+/*顶部右侧li中小图标i的公共样式*/
+.topHeaderRight ul li i{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin: 7px 5px 0 0;
+}
+/*顶部右侧所有小箭头的样式*/
+.topHeaderRight s{
+    float: right;
+    width: 9px;
+    height: 8px;
+    background-position: -99px 3px;
+    margin: 9px 1px 9px 3px;
+}
+/*顶部右侧li*/
+.topHeaderRight .hd-n1{
+    position: relative;
+    float: left;
+    height: 26px;
+    padding: 0px 4px 0px 7px;
+}
+/*鼠标上移li时我的酒仙二级菜单打开*/
+.topHeaderRight .hd-n1:hover .myJiuxianBox{
+    display: block;
+}
+/*顶部右侧 我的酒仙超链接*/
+.topHeaderRight .myJiuxian a{
+    float: left;
+    line-height: 26px;
+    color: #999;
+    text-decoration: none;
+}
+/*顶部右侧 我的酒仙小箭头*/
+.topHeaderRight .myJiuxian i{
+    float: left;
+    width: 9px;
+    height: 8px;
+    background-position: -99px 3px;
+    margin: 9px 1px 9px 3px;
+}
+/*顶部右侧我的酒仙二级菜单*/
+.topHeaderRight .myJiuxianBox{
+    display: none;
+    width: 72px;
+    border: 1px solid #e5e5e5;
+    border-top: 0px;
+    position: absolute;
+    top: 26px;
+    left: -1px;
+    background-color: #ffffff;
+    padding: 5px 0;
+}
+/*顶部右侧我的酒仙二级菜单中的超链接*/
+.topHeaderRight .myJiuxianBox a{
+    display: inline-block;
+    width: 72px;
+    padding: 6px 0;
+    color: #999;
+    text-align: center;
+}
+/*我的酒仙超链接鼠标放置*/
+.topHeaderRight .myJiuxian a:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+/*顶部右侧 li鼠标上移背景转白*/
+.topHeaderRight .hd-n1:hover {
+    background-color: #fff;
+}
+/*顶部右侧li 鼠标放置我的酒仙小箭头翻转*/
+.topHeaderRight .hd-n1:hover s{
+    transform: rotate(180deg);
+}
+/*我的酒仙二级菜单鼠标上移*/
+.topHeaderRight .myJiuxianBox a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+/*顶部右侧li CEO邮箱 a标签*/
+.topHeaderRight .hd-n2 a{
+    color: #c00;
+}
+/*顶部右侧li 购物车图标*/
+.topHeaderRight .hd-n3 i{
+    /* float: left;
+    width: 12px;
+    height: 12px;
+    margin: 7px 5px 0 0; */
+    background-position: -18px 1px;
+}
+/*顶部右侧li 购物车 标签a*/
+.topHeaderRight .hd-n3 a{
+    color: #999;
+}
+/*顶部右侧li 购物车 标签a 中数字span*/
+.topHeaderRight .hd-n3 a span{
+    color: #c00;
+    font-weight: bold;
+}
+/*顶部右侧li 购物车 标签a鼠标放置 */
+.topHeaderRight .hd-n3 a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+/*顶部右侧li club会员 a标签*/
+.topHeaderRight .hd-n4 a{
+    color: #c00;
+}
+/*用于为其li添加分割线  尚未实现*/
+.topHeaderRight .hd-n5::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 12px;
+    background-color:red;
+}
+/*顶部右侧li 招商入驻 中a标签*/
+.topHeaderRight .hd-n5 a{
+    color: #999;
+}
+/*顶部右侧li 招商入驻中a标签鼠标上移改变颜色*/
+.topHeaderRight .hd-n5 a:hover{
+    color: #c00;
+    text-decoration: underline;
+}
+/*顶部右侧li 手机逛酒仙*/
+/*顶部右侧li 手机逛酒仙中a标签*/
+.topHeaderRight .hd-n6 a{
+    height: 16px;
+    line-height: 16px;
+    padding: 0 3px;
+    background-color: #cc0001;
+    color: #fff;
+    border-radius: 2px;
+    margin: 5px 5px 0 0;
+}
+/*顶部右侧li 手机逛酒仙a中i标签，放置手机小图标*/
+.topHeaderRight .hd-n6 a i{
+    /* float: left;
+    width: 12px;
+    height: 12px; */
+    margin: 6px 3px 0 0;
+    background-position: -62px 0;
+}
+/*顶部右侧li 网站导航*/
+ .topHeaderRight .hd-n7{
+    position: relative;
+} 
+.topHeaderRight .hd-n7:hover{
+    background-color: #fff;
+}
+.topHeaderRight .hd-n7:hover .child{
+    display: block;
+}
+/*顶部右侧li 网站导航 二级菜单栏*/
+.topHeaderRight .hd-n7 .child{
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    width: 205px;
+    /* height: 350px; */
+    border: 1px solid #e5e5e5;
+    border-top: 0px;
+    /* border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5; */
+    background-color: #fff;
+    padding: 5px 0 0 0;
+    z-index: 999;
+}
+/*顶部右侧li 网站导航 二级菜单栏中第一项*/
+.topHeaderRight .hd-n7 .child .first{
+    width: 165px;
+    padding: 6px 20px 8px;
+    border-bottom: 1px solid #ededed;
+}
+/*顶部右侧li 网站导航 二级菜单h3标签*/
+.topHeaderRight .hd-n7 .child h3{
+    font-size:14px;
+    font-family:"微软雅黑";
+    color: #333;
+    font-weight: normal;
+}
+/*顶部右侧li 网站导航 二级菜单 中的内容*/
+.topHeaderRight .hd-n7 .child .first-con{
+    width: 180px;
+    line-height: 24px;
+}
+/*顶部右侧li 网站导航 二级菜单 中内容的a标签*/
+.topHeaderRight .hd-n7 .first-con a{
+    display: inline-block;
+    height: 24px;
+    text-align: left;
+    width: 48px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+/*顶部右侧li 网站导航 二级菜单第二部分*/
+.topHeaderRight .hd-n7 .child .second{
+    width: 165px;
+    padding: 6px 20px 8px;
+    border-bottom: 1px solid #ededed;
+    background-color: #f9f9f9;
+}
+/*顶部右侧li 网站导航 二级菜单第三部分*/
+.topHeaderRight .hd-n7 .child .third{
+    width: 165px;
+    padding: 6px 20px 8px;
+    border-bottom: 1px solid #ededed;
+}
+/*顶部右侧li 网站导航 二级菜单第四部分*/
+.topHeaderRight .hd-n7 .child .foured{
+    width: 165px;
+    padding: 6px 20px 8px;  
+    background-color: #f9f9f9;                             
+}
+/*顶部右侧li 网站导航 二级菜单 第四部分 span标签*/
+.topHeaderRight .hd-n7 .child .foured span{
+    width: 14px;
+    color: #999;
+}
+/*顶部右侧li 网站导航 二级菜单 第四部分中 b标签*/
+.topHeaderRight .hd-n7 .child .foured b{
+    color: #666;
+}
+/*顶部右侧li 中网站导航的小图标*/
+.topHeaderRight .hd-n7 i{
+    /* float: left;
+    width: 12px;
+    height: 12px;
+    margin: 7px 5px 0 0; */
+    background-position: -80px 0;
+    background-color: yellow;
+}
+/*顶部右侧li 中网站导航小箭头*/
+.topHeaderRight .hd-n7 s{
+    float: right;
+    width: 9px;
+    height: 8px;
+    margin: 9px 1px 9px 3px;
+    background-position: -99px 3px;
+}
+/*顶部右侧li 中超链接鼠标上移样式*/
+.topHeaderRight .hd-n7 a:hover{
+    color: #cc0001;
+    text-decoration: underline;
+}
+/*顶部右侧li 小箭头鼠标上移旋转*/
+.topHeaderRight .hd-n7:hover s{
+    transform: rotate(180deg);
+}
+.topHeaderRight .hd-n8{
+    position: relative;
+}
+.topHeaderRight .hd-n8:hover{
+    background-color: #fff;
+}
+.topHeaderRight .hd-n8:hover .child{
+    display: block;
+}
+.topHeaderRight .hd-n8 .child{
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: -1px;
+    width: 89px;
+    padding: 5px 0;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    z-index: 999;
+}
+.topHeaderRight .hd-n8 .child a{
+    display: inline-block;
+    width: 72px;
+    text-align: center;
+}
+.topHeaderRight .hd-n8 .child a:hover{
+    color: #cc0001;
+    text-decoration: underline;
+}
+/*顶部右侧li 客户服务 小图标*/
+.topHeaderRight .hd-n8 i{
+    background-position: -90px -265px;
+}
+/*顶部右侧li客户服务中小箭头的旋转*/
+.topHeaderRight .hd-n8:hover s{
+    transform: rotate(180deg);
+}
+/*顶部右侧li 客热线文字*/
+.topHeaderRight .hd-n9 span{
+    color: #999;
+}
+/*顶部右侧li 客服热线手机号*/
+.topHeaderRight .hd-n9 b{
+    color: #cc0001;
+}
+/* 头顶部结束 */
+
+
+
+/* 头中部开始 */
+.topFocusBox{
+    width: 100%;
+    height: 90px;
+}
+.topFocusBox a img{
+    width: 100%;
+}
+/* 头中部结束 */
+
+
+/* 头底部开始 */
+.midHeader{
+    width: 100%;
+    height: 125px;
+}
+.midHeader-con{
+    width: 1200px;
+    height: 125px;
+    margin: 0 auto;
+}
+.midHeader-con .headerLogo{
+    float: left;
+    width: 263px;
+    height: 65px;
+    margin-top: 30px;
+}
+.midHeader-con .headerLogo p{
+    /* float: left; */
+    display: inline-block;
+    width: 137px;
+    height: 65px;
+    margin-right: 10px;
+}
+.midHeader-con .headerLogo p a{
+    display: inline-block;  
+    height: 65px;
+}
+.midHeader-con .headerLogo p:nth-child(2){
+    width: 110px;
+    margin: 0px;
+}
+.headerSearch{
+    float: left;
+    width: 540px;
+    margin: 32px 0 0 20px;
+}
+.headerSearch .searchHome{
+    height: 32px;
+    border: 3px solid #C00;
+}
+.searchHome .search-form{
+    float: left;
+    width: 439px;
+    height: 22px;
+    line-height: 22px;
+    padding: 5px;
+    border: 0 none;
+    color: #666;
+    outline: none;
+}
+.searchHome .search-btn{
+    float: left;
+    width: 85px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    color: rgb(255,255,255);
+    cursor: pointer;
+    font-family: "微软雅黑";
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    background: rgb(204,0,0);
+}
+.headerSearch .hotWords{
+    width: 540px;
+    height: 18px;
+    /* overflow: hidden; */
+    padding-top: 5px;
+}
+.hotWords p{
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    white-space: nowrap;  /*不换行*/
+}
+.hotWords p a{
+    position: relative;
+    float: left;
+    /* display: inline-block; */
+    padding: 0 8px;
+    height: 18px;
+    color: #999;
+}
+.hotWords a:hover{
+    color: #cc0001;
+    text-decoration: underline;
+}
+.hotWords s{
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    height: 12px;
+    width: 0;
+    border-left: 1px solid #999;
+}
+.headerProtect{
+    float: right;
+    width: 363px;
+    height: 64px;
+    margin: 33px 0 0;
+    background-image: url(../images/header/headerProPic1.png);
+}
+/* 头底部结束 */
